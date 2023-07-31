@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Admin Dashboard</title>
+</head>
+<body class="bg-gray-200">
+  <div class="grid grid-cols-4 min-h-screen">
+    <!-- Sidebar -->
+    <div class="col-span-1 bg-gray-900 text-white">
+      <!-- Branding Section -->
+      <div class="p-4">
+        <h1 class="text-2xl font-bold">Dashboard</h1>
+      </div>
+      <!-- Navigation Section -->
+      <nav class="p-4">
+        <!-- Menu Items -->
+        <a href="#" class="block py-2 text-white hover:bg-gray-800">Home</a>
+        <a href="#" class="block py-2 text-white hover:bg-gray-800">Profile</a>
+        <a href="#" class="block py-2 text-white hover:bg-gray-800">Messages</a>
+        <a href="#" class="block py-2 text-white hover:bg-gray-800">History</a>
+        <a href="#" class="block py-2 text-white hover:bg-gray-800">Tasks</a>
+        <a href="#" class="block py-2 text-white hover:bg-gray-800">Communities</a>
+        <a href="#" class="block py-2 text-white hover:bg-gray-800">Settings</a>
+        <a href="#" class="block py-2 text-white hover:bg-gray-800">Support</a>
+      </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="col-span-3 p-4">
+      <!-- Header -->
+      <header class="grid grid-cols-4 gap-4 mb-4">
+        <!-- Greetings -->
+        <div class="col-span-1">
+          <span class="text-gray-800 font-semibold">Hi there, John Doe!</span>
+        </div>
+        <!-- Buttons -->
+        <div class="col-span-3 flex items-center justify-end space-x-4">
+          <button class="bg-green-500 text-white px-4 py-2 rounded-lg">New</button>
+          <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">Upload</button>
+          <button class="bg-yellow-500 text-white px-4 py-2 rounded-lg">Share</button>
+        </div>
+      </header>
+
+      <!-- Main Content Sections -->
+      <section class="grid grid-cols-3 gap-4">
+        <!-- Projects -->
+        <div class="col-span-1 bg-white p-4 rounded-lg">
+          <h2 class="text-lg font-semibold mb-4">Projects</h2>
+          <!-- Dummy Project Cards -->
+          <div class="bg-gray-100 p-4 rounded-lg mb-4">
+            <h3 class="text-md font-semibold mb-2">Project 1</h3>
+            <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg mb-4">
+            <h3 class="text-md font-semibold mb-2">Project 2</h3>
+            <p class="text-sm text-gray-600">Pellentesque euismod neque non odio rhoncus, a vulputate dolor scelerisque.</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg mb-4">
+            <h3 class="text-md font-semibold mb-2">Project 3</h3>
+            <p class="text-sm text-gray-600">Nulla facilisi. Aenean eu ex nec elit fermentum aliquet.</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg mb-4">
+            <h3 class="text-md font-semibold mb-2">Project 4</h3>
+            <p class="text-sm text-gray-600">Proin id ex vel tellus luctus auctor eu quis velit.</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg mb-4">
+            <h3 class="text-md font-semibold mb-2">Project 5</h3>
+            <p class="text-sm text-gray-600">Sed vulputate quam sit amet neque varius, quis efficitur nunc malesuada.</p>
+          </div>
+          <!-- Add more project cards as needed -->
+        </div>
+
+        <!-- Trending and Announcements -->
+        <div class="col-span-2 flex flex-col space-y-4">
+          <!-- Trending Items -->
+          <div class="bg-blue-100 p-4 rounded-lg">
+            <h2 class="text-lg font-semibold mb-4">Trending Items</h2>
+            <!-- Dummy Trending Items -->
+            <div class="mb-2">
+              <h3 class="text-md font-semibold">Trending News 1</h3>
+              <p class="text-sm text-blue-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="mb-2">
+              <h3 class="text-md font-semibold">Trending News 2</h3>
+              <p class="text-sm text-blue-800">Pellentesque euismod neque non odio rhoncus, a vulputate dolor scelerisque.</p>
+            </div>
+            <!-- Add more trending items as needed -->
+          </div>
+          
+          <!-- Announcements -->
+          <div class="bg-yellow-100 p-4 rounded-lg">
+            <h2 class="text-lg font-semibold mb-4">Announcements</h2>
+            <!-- Dummy Announcements -->
+            <div class="mb-2">
+              <h3 class="text-md font-semibold">Site Maintenance</h3>
+              <p class="text-sm text-yellow-800">Scheduled maintenance on 1st August, 10:00 AM (GMT).</p>
+            </div>
+            <div class="mb-2">
+              <h3 class="text-md font-semibold">Updated Privacy Policy</h3>
+              <p class="text-sm text-yellow-800">Please review our updated privacy policy.</p>
+            </div>
+            <!-- Add more announcements as needed -->
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
